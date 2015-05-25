@@ -39,6 +39,8 @@
 * Filter Methods
   * not over REST
   * url parameters
+* Actions
+  * resource/actions/blubber
 * Documentation
   * First in confluence
   * Moved to the code repos
