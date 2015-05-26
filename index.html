@@ -131,14 +131,14 @@
 				<section>
 					<h2>Library Support</h2>
 					<pre><code class="ruby" data-trim>
-client = WlwApi::Client.create(:sap)
+client = WlwApi::Client.create(:products)
 client.get('/products').body
 =>
 {
-  items: [
+  items: [{
     id: 123,
     name: 'Flux capacitor'
-  ]
+  }]
 }
 					</code></pre>
 				</section>
